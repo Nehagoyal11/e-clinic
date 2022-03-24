@@ -1,0 +1,46 @@
+body{
+    background:url('bgimage.jpg');
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.search_doctor{
+    box-sizing: border-box;
+    margin:8% auto;
+    color:white;
+}
+.search_doctor >h1{
+        text-align: center;
+        font-size: 40px;
+        background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+.search_doctor > select{
+    width:46vw;
+    height:40px;
+    border: 1.5px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2% auto;
+}
+.search_doctor >button{
+    border-color: black;
+    border-radius: 20px;
+    display: block;
+    margin: 2% auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    background-color: black;
+}
+.search_doctor >button:hover{
+    color:black;
+    border: white;
+    background-color: white;
+}
